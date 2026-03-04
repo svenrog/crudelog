@@ -5,11 +5,20 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
 		<TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+		<VersionPrefix>1.0.0</VersionPrefix>
 		<PackageId>Crude.Logging.Console</PackageId>
-		<Title>Super simple colored console logging</Title>
-		<Authors>Svenrog</Authors>
+		<Title>Super simple 🌈 console logging</Title>
+		<Authors>svenrog</Authors>
+		<Description>Colored one line logging with minor highlight handling</Description>
+		<RepositoryType>Git</RepositoryType>
+		<PackageTags>Console Logging Colors</PackageTags>
+		<PackageLicenseExpression>GPL-2.0-only</PackageLicenseExpression>
+		<PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+		<PackageReleaseNotes>https://github.com/svenrog/crudelog/blob/master/CHANGELOG.md</PackageReleaseNotes>
+		<PackageProjectUrl>https://github.com/svenrog/crudelog</PackageProjectUrl>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<RepositoryUrl>https://github.com/svenrog/crudelog.git</RepositoryUrl>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-		<WebPage>https://github.com/svenrog/crudelog</WebPage>
 	</PropertyGroup>
 
 	<ItemGroup>
@@ -18,6 +27,10 @@
 
 	<ItemGroup>
 		<ProjectReference Include="..\Crude.Logging\Crude.Logging.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Include="..\..\README.md" Pack="true" PackagePath="\" />
 	</ItemGroup>
 
 </Project>

@@ -7,7 +7,7 @@ A way to simplify console logging from the default C# fancy 2 line logging that 
 
 ## Usage
 
-`nuget install Crude.Logging.Console`
+`dotnet add package Crude.Logging.Console`
 
 In your startup code
 
@@ -15,3 +15,11 @@ In your startup code
 var builder = Host.CreateApplicationBuilder(arguments);
 builder.Logging.AddConsoleLogging();
 ```
+
+## Package maintainer
+
+https://github.com/svenrog
+
+## Changelog
+
+[Changelog](CHANGELOG.md)
