@@ -5,7 +5,7 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
 		<TreatWarningsAsErrors>true</TreatWarningsAsErrors>
-		<VersionPrefix>1.0.0</VersionPrefix>
+		<VersionPrefix>1.0.1</VersionPrefix>
 		<PackageId>Crude.Logging.Console</PackageId>
 		<Title>Super simple 🌈 console logging</Title>
 		<Authors>svenrog</Authors>
@@ -23,10 +23,6 @@
 
 	<ItemGroup>
 		<PackageReference Include="Microsoft.Extensions.Logging.Console" Version="[10.0.0, 11)" />
-	</ItemGroup>
-
-	<ItemGroup>
-		<ProjectReference Include="..\Crude.Logging\Crude.Logging.csproj" />
 	</ItemGroup>
 
 	<ItemGroup>

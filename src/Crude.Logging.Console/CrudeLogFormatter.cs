@@ -1,4 +1,4 @@
-﻿using Crude.Logging.Extensions;
+﻿using Crude.Logging.Console.Extensions;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Logging.Abstractions;
 using Microsoft.Extensions.Logging.Console;

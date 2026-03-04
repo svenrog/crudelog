@@ -1,6 +1,6 @@
 ﻿using System.Runtime.CompilerServices;
 
-namespace Crude.Logging;
+namespace Crude.Logging.Console;
 
 internal sealed class AnsiParser
 {

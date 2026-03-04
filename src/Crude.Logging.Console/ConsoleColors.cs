@@ -1,4 +1,4 @@
-﻿namespace Crude.Logging;
+﻿namespace Crude.Logging.Console;
 
 internal readonly struct ConsoleColors(ConsoleColor? foreground, ConsoleColor? background)
 {

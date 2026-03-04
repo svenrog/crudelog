@@ -6,5 +6,4 @@
     <File Path="README.md" />
   </Folder>
   <Project Path="src/Crude.Logging.Console/Crude.Logging.Console.csproj" Id="4c8dab55-c40e-4d96-97c9-07de15f6e2a8" />
-  <Project Path="src/Crude.Logging/Crude.Logging.csproj" />
 </Solution>
