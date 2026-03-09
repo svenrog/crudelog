@@ -7,7 +7,7 @@ namespace Crude.Logging.Console.Extensions;
 public static class LoggingBuilderExtensions
 {
     [DynamicDependency(DynamicallyAccessedMemberTypes.PublicConstructors, typeof(CrudeLogFormatter))]
-    public static void AddConsoleLogging(this ILoggingBuilder builder, LogLevel? minimumLevel = LogLevel.Debug)
+    public static ILoggingBuilder AddConsoleLogging(this ILoggingBuilder builder, LogLevel? minimumLevel = LogLevel.Debug)
     {
         builder.AddConsole(x =>
         {
@@ -17,5 +17,7 @@ public static class LoggingBuilderExtensions
 
         if (minimumLevel.HasValue)
             builder.SetMinimumLevel(minimumLevel.Value);
+
+        return builder;
     }
 }
